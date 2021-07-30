@@ -17,6 +17,7 @@ namespace JPProject.Controllers
         }
 
         [HttpGet]
+        //test
         public ActionResult Login(Login LoginCredentials)
         {
             Uri uri = new Uri(URL);
